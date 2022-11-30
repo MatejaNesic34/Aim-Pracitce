@@ -49,9 +49,11 @@ p{
 }
 
 .meta{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     position: absolute;
+    background-color: red;
+    border-radius: 50%;
 }
 .nevidljivo{
     display: none;

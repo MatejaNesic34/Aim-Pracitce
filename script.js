@@ -42,7 +42,7 @@ meta.addEventListener("click", mete);
 function kreni(){
     rezultat.classList.add('nevidljivo');
     nastavi = true;
-    setTimeout(zaustavi, 10000);
+    setTimeout(zaustavi, 30000);
     meta.classList.remove('nevidljivo');
     mete();
 
