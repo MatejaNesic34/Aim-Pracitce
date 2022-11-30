@@ -53,3 +53,9 @@ p{
     height: 100px;
     position: absolute;
 }
+.nevidljivo{
+    display: none;
+}
+.rezultat{
+    color: black;
+}
