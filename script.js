@@ -40,6 +40,7 @@ function zaustavi(){
 meta.addEventListener("click", mete);
 
 function kreni(){
+    meta.classList.remove('nevidljivo');
     rezultat.classList.add('nevidljivo');
     nastavi = true;
     setTimeout(zaustavi, 30000);
