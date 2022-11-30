@@ -1,23 +1,19 @@
-
-
-
-
-
+let polje = document.getElementById("polje");
 
 
 class Tacka{
 
     randomX(){
-        return Math.floor(Math.Random() * 500); // SIRINA
+        return Math.floor(Math.random() * 500); // SIRINA
     }
     randomY(){
-        return Math.floor(Math.Random() * 500); // VISINA
+        return Math.floor(Math.random() * 500); // VISINA
     }
 
 
     constructor(){
-        this.x = randomX();
-        this.y = randomY();
+        this.x = this.randomX();
+        this.y = this.randomY();
     }
 }
 

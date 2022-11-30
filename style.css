@@ -33,11 +33,20 @@ body{
 }
 .button button:hover{
     transition: ease-in-out .3s all;
-    transform: scale(0.8);
+    transform: scale(0.9);
 }
 p{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 70px;
     color: #fff;
+}
+.field img{
+    width: 100px;
+    height: 100px;
+}
+.centar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
