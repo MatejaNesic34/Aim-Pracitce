@@ -1,10 +1,10 @@
-let polje = document.getElementById("polje");
+let meta = document.getElementById("meta");
 
 
 class Tacka{
 
     randomX(){
-        return Math.floor(Math.random() * 500); // SIRINA
+        return Math.floor(Math.random() * 1100); // SIRINA
     }
     randomY(){
         return Math.floor(Math.random() * 500); // VISINA
@@ -17,18 +17,20 @@ class Tacka{
     }
 
     kreiraj(){
-        polje.innerHTML = '<div class = "meta" style="top: ' + this.x + 'px; left: ' + this.y; +'px"></div>'
+        meta.style.top = this.y + 'px';
+        meta.style.left = this.x + 'px';
+        meta.addEventListener("click", kreni)
     }
 }
 
-
-
-
-
 function kreni(){
+    setTimeout(mete, 5000);
 
+}
+
+
+function mete(){
     let tacka = new Tacka();
     tacka.kreiraj();
     console.log(tacka.x, tacka.y);
-
 }
