@@ -15,12 +15,20 @@ class Tacka{
         this.x = this.randomX();
         this.y = this.randomY();
     }
+
+    kreiraj(){
+        polje.innerHTML = '<div class = "meta" style="top: ' + this.x + 'px; left: ' + this.y; +'px"></div>'
+    }
 }
+
+
+
 
 
 function kreni(){
 
     let tacka = new Tacka();
+    tacka.kreiraj();
     console.log(tacka.x, tacka.y);
 
 }
